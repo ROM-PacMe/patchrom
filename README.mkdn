@@ -1,8 +1,7 @@
-Patchrom
-===========
+# Patchrom
 
-Get Android SDK
-----------------
+# Get Android SDK
+
 
 In order to build patchrom project, you must have android sdk installed.(http://developer.android.com/sdk/installing.html)
 
@@ -12,8 +11,7 @@ vim .bashrc
 
 export PATH=$PATH:/home/xxx/android-sdk/tools:/home/xxx/anroid-sdk/platform-tools
 
-Getting Started
----------------
+# Getting Started
 
 To get started with MiCode/patchrom, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
@@ -30,8 +28,7 @@ Then to sync up:
 
     repo sync
 
-Build
---------
+# Build
 
 Assumed current directory is patchtom and you want to build the ROM for Nexus6P
 
@@ -43,8 +40,7 @@ Assumed current directory is patchtom and you want to build the ROM for Nexus6P
 After build completed, there will be a fullota.zip under out directory, now you can flash this file into your device.
 
 
-Porting new device
-------------------
+# Porting new device
 
 Asssumed current directory is patchrom and you want to port miui to a new android device xblade
 
@@ -78,4 +74,3 @@ Workflow:
      make fullota
 
 Now you can get your own miui ROM, enjoy it!
-
