@@ -9,7 +9,7 @@ And add the sdk tools and platform-tools to PATH.
 
 vim .bashrc
 
-export PATH=$PATH:/home/xxx/android-sdk/tools:/home/xxx/anroid-sdk/platform-tools
+export PATH=$PATH:/home/xxx/Android/Sdk/tools:/home/xxx/Android/Sdk/platform-tools
 
 # Getting Started
 
