@@ -5,7 +5,8 @@
            fetch=".." />
   
   <remote name="pacme"
-          fetch="https://github.com/ROM-PacMe" />
+          fetch="https://github.com/ROM-PacMe"
+          revision="refs/heads/master" />
 
   <default revision="refs/heads/marshmallow"
            remote="github"
